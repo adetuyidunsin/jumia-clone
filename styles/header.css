@@ -1,0 +1,193 @@
+.header-section {
+  height: 55px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: rgb(255, 255, 255);
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+
+  border-bottom-width: 1px;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 4px 4px -4px;
+}
+
+.left-section {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  max-width: 300px;
+ justify-content: end;
+}
+
+.jumia-logo {
+  height: 24px;
+}
+
+.middle-section {
+  flex: 1;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-bar {
+  flex: 1;
+  height: 35px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(241, 241, 242);
+  background-color: rgb(241, 241, 242);
+}
+
+.search-bar::placeholder {
+  font-family: Arial;
+}
+
+.search-button {
+  border-color: black;
+  height: 40px;
+  width: 60px;
+  border: none;
+  background-color: rgb(241, 241, 242);
+}
+
+.search-icon {
+  background-color: rgb(241, 241, 242);
+  height: 24px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  color: rgb(49, 49, 51);
+  border-color: blue;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.search-text {
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(246, 139, 30);
+  border: none;
+  padding: 12px 16px;
+  border-radius: 30px;
+}
+
+
+.search-text:hover {
+  background-color: #af6315;
+  
+}
+
+.right-section {
+  width: 500px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-icon {
+  height: 24px;
+}
+
+.check-icon {
+  height: 14px;
+  position: absolute;
+  bottom: -2px;
+  left: 15px;
+}
+
+.user-info {
+  position: relative;
+}
+
+.user-info:hover {
+  color: orange;
+}
+
+.question-icon {
+  height: 24px;
+  margin-top: 10px;
+}
+
+.cart-icon {
+  height: 24px;
+  margin-top: 10px;
+}
+
+.cart-icon:hover {
+  color: orange;
+}
+
+.down-icon-1{
+  height: 14px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.user-info{
+  display: flex;
+}
+
+.username {
+  padding-left: 15px;
+  padding-top: 7px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.help.info {
+  display: flex;
+  position: relative;
+  margin-top: 50px;
+}
+
+.help-name {
+  position: absolute;
+ 
+  font-size: 15px;
+  font-weight: bold;
+
+  padding-left: 15px;
+  top: 23px;
+  padding-left: 30px;
+}
+
+.help-name:hover {
+  color: orange;
+}
+
+.down-icon-2{
+  height: 14px;
+  margin-bottom: 4px;
+  margin-left: 40px;
+}
+
+.cart-info {
+  position: relative;
+  padding-right: 100px;
+  margin-right: 100px;
+}
+
+.cart-name {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cart-info:hover {
+  color: orange;
+}
+
+
